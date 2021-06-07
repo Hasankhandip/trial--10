@@ -567,8 +567,8 @@ margin-bottom:50px;
 }
 .owl-item.active {
 	width: 270px !important;
-    margin-right:15px !important;
-	margin-left:15px !important;
+    margin-right:35px !important;
+	margin-left:35px !important;
 }
 .owl-stage {
 	width:10000px !important;
