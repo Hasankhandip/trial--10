@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-section .container .row .col-lg-5,.col-lg-7{
+    height:85px;
+}
+.header-section{
+    height:85px;
+    width:100%;
+    background:#fff;
+    position: fixed;
+    z-index:9;
+}
+.site-logo{
+    width:100%;
+    height:50px;
+}
+.site-logo img{
+    margin:17px 0;
+    width:100px;
+    height:100%;
+    cursor: pointer;
+}
+.hdr-navbar{
+    display: flex;
+    align-items: center;
+    height:100%;
+}
+.hdr-navbar ul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.hdr-navbar ul li{
+    list-style: none;
+    display:inline-block;
+}
+.hdr-navbar ul li a{
+    margin:0 8px;
+    text-decoration: none;
+    color:#ba202c;
+    font-weight: 600;
+    transition: .4s;
+    font-family: 'Mina', sans-serif;
+}
+.hdr-navbar ul li a:hover{
+    color:#2657eb;
+}
+.drp-down{
+    position: absolute;
+    top:85px;
+    opacity:100%;
+    transition: .4s;
+    background:#fff;
+    opacity:0;
+    visibility: hidden;
+    z-index:999;
+}
+.p-drp-down:hover .drp-down{
+    opacity: 100%;
+    visibility: visible;
+}
+.drp-down ul{
+    margin:10px 0;
+}
+.drp-down ul li{
+    display: block;
+    margin:8px 0;
+}
+.drp-down ul li a{
+    color: #ba202c;
+}
+.drp-down ul li a:hover{
+    color: #2657eb;
+}
+.banner-section{
+    position: relative;
+    margin-bottom:85px;
+    top:85px;
+}
+.banner-section img{
+    width:100%;
+    height:630px;
+}
+.banner-text h5{
+    position: absolute;
+    top:230px;
+    left:50px;
+    color: #fff;
+    font-size:25px;
+    line-height:45px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.cyber-details {
+    padding-top:60px;
+}
+.cyber-details-hdr {
+	margin-bottom:45px;
+}
+.cyber-details-hdr h2{
+    text-align: center;
+    margin-bottom:15px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.cyber-details-all-text p {
+	font-size: 18px;
+	line-height: 30px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.cyber-details-all-img img{
+    width:100%;
+}
+.cyber-protection {
+	margin-top: 40px;
+}
+.cyber-protection-hdr h2{
+    margin-bottom:15px;
+    font-size:28px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.cyber-protection-img img{
+    width:100%;
+    height:500px;
+    margin:25px 0 50px 0;
+}
+.cyber-protection-text p{
+    font-size: 18px;
+	line-height: 30px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.cyber-protection-text ul li{
+    margin-bottom:15px;
+}
+.cyber-protection-text ul li span{
+    font-weight: 700;
+}
+.cyber-protection-text ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.cyber-support {
+	margin: 70px 0;
+}
+.cyber-support-img img{
+    width:100%;
+}
+.cyber-support-hdr h2{
+    margin:40px 0;
+    font-size:30px;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.cyber-support-text p {
+	line-height: 30px;
+}
+.cyber-support-text{
+    margin-bottom:30px;
+}
+.cyber-protection-text ul{
+    padding-left:12px;
+}
+.support-team {
+	margin-bottom: 80px;
+}
+.support-team-hdr h2{
+    margin:40px 0 60px 0;
+    font-size:30px;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.support-man-img img{
+    width:100%;
+    height:300px;
+}
+.img-gap{
+    margin-bottom:70px;
+}
+.staff-pic{
+	display: flex;
+	justify-content: center;
+}
+.staff-pic img{
+    max-width: 100%;
+    height:200px;
+    border-radius: 50%;
+    padding: 0px;
+}
+.team-caption {
+	text-align: center;
+	margin-top: 20px;
+}
+.team-caption h4{
+    font-size: 20px;
+line-height: 25px;
+font-weight: 700;
+font-family: 'Montserrat', sans-serif;
+}
+.team-caption p {
+	margin: 0 0 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #9a9393;
+	font-weight: 600;
+}
+.profession{
+    text-transform: uppercase;
+font-size: 12px !important;
+font-weight: 600 !important;
+margin-bottom: 5px;
+}
+.social-links ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+}
+.social-links li{
+    list-style: none;
+    margin-right: 15px;
+    display: inline-block;
+}
+.social-links li a{
+    font-size: 20px;
+}
+.team-card-box {
+	background-color: #FFF;
+	padding:25px;
+    box-shadow: 0px 0px 10px 3px rgba(58, 41, 6, 0.16);
+}
+.social-links {
+	margin-top: 15px;
+}
+.social-fb{
+    color: #0d8cf0;
+}
+.social-gmail{
+    color:#e34133;
+}
+.social-whatsapp{
+    color: #3fdb53;
+}
+.staff-section {
+	margin-top: 65px;
+	margin-bottom: 64px;
+}
+.gap-img{
+    margin-top:60px;
+}
+.a-text{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 17px;
+    transition: .4s;
+}
+.contact-way{
+    display: flex;
+    justify-content: center;
+}
+.contact-way ul li{
+    margin-bottom: 10px;
+}
+.a-text:hover{
+    color: #000;
+}
+.link-mail{
+    color:#ba202c;
+    transition: .4s;
+}
+.link-mail:hover{
+    color:#ba202dde;
+}
+.whatsapp-link{
+    color:#2eca67;
+    transition: .4s;
+}
+.whatsapp-link:hover{
+    color:#08632ada;
+}
+.contact-way-image{
+display: flex;
+justify-content: center;
+margin-bottom:50px;
+}
+.social-call{
+    color:#006ac0;
+}
+.phone-call-link{
+    color:#ffa600;
+}
+.phone-call-link:hover{
+    color:#c4830b;
+}
+.map-section iframe{
+    width:100%;
+    height:380px;
+}
+.contact-us {
+	margin-bottom: 60px;
+}
+.footer-section {
+	padding: 70px 0 40px 0;
+    background-color: #000;
+}
+.footer-logo{
+    text-align: center;
+}
+.footer-logo img{
+    width:350px;
+}
+.footer-social-links ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-social-links ul li {
+    list-style: none;
+    margin-right:25px;
+}
+.footer-social-links ul li a{
+    font-size:30px;
+    color: #fff;
+}
+.footer-social-links{
+    padding:30px 0 20px 0;
+}
+.footer-details{
+    text-align: center;
+}
+.footer-details h4{
+    color: #fff;
+    font-family: 'Odibee Sans', cursive;
+}
+.copyright{
+    background: #000;
+    text-align: center;
+}
+.copyright p{
+    margin-bottom: 0;
+    color:#fff;
+    padding:15px 0 20px 0;
+    font-family: 'Odibee Sans', cursive;
+}
+
+
+
+
+
+
+
+/* whatsapp button */
+/* for desktop */
+.whatsapp_float {
+	position:fixed;
+	width:45px;
+	height:45px;
+    line-height:45px;
+	bottom:40px;
+	right:20px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+.whatsapp_float::before {
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+	background: #25d366;
+	top: -5px;
+	right: 0px;
+	left: -5px;
+	bottom: 0px;
+	animation: whatsapp_float 1.2s linear infinite;
+	z-index: -1;
+	width: 55px;
+	height: 55px;
+}
+@keyframes whatsapp_float{
+    0%,30%{ 
+        transform: scale(0);
+        opacity: 2;
+    }
+    50%{
+        transform: scale(1.1);
+        opacity: .7;
+    }
+    80%{
+        transform: scale(1.2);
+        opacity: .3;
+    }
+    100%{
+        transform: scale(1.3);
+        opacity:0 ;
+    }
+}
+.whatsapp-icon {
+    color: #fff;
+}
+/* gmail button */
+.gmail_float{
+    position:fixed;
+	width:45px;
+	height:45px;
+    line-height:45px;
+	bottom:110px;
+	right:20px;
+	background-color:#ea4335;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+    z-index:9;
+}
+.gmail_float::before {
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+	background: #ea4335;
+	top: -5px;
+	right: 0px;
+	left: -5px;
+	bottom: 0px;
+	animation: gmail_float 1.2s linear infinite;
+	z-index: -1;
+	width: 55px;
+	height: 55px;
+}
+@keyframes gmail_float{
+    0%,30%{ 
+        transform: scale(0);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.1);
+        opacity: .7;
+    }
+    80%{
+        transform: scale(1.2);
+        opacity: .2;
+    }
+    100%{
+        transform: scale(1.3);
+        opacity:0 ;
+    }
+}
+.gmail-icon {
+	position: absolute;
+	color: #fff;
+	font-size: 24px !important;
+	top: 11px;
+	left: 8px;
+}
+/* facebook page button */
+.facebook_float{
+    position:fixed;
+	width:45px;
+	height:45px;
+    line-height:45px;
+	bottom:180px;
+	right:20px;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+.facebook_float::before {
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+    background-color: #0d8cf0;
+	top: -5px;
+	right: 0px;
+	left: -5px;
+	bottom: 0px;
+	animation:facebook_float 1.2s linear infinite;
+	z-index: -1;
+	width: 55px;
+	height: 55px;
+}
+@keyframes facebook_float{
+    0%,30%{ 
+        transform: scale(0);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.1);
+        opacity: .7;
+    }
+    80%{
+        transform: scale(1.2);
+        opacity: .2;
+    }
+    100%{
+        transform: scale(1.3);
+        opacity:0 ;
+    }
+}
+.facebook-icon{
+	position: absolute;
+	color:#0b86ee;
+	font-size:45px !important;
+    width:45px;
+	height:45px;
+	top:0px;
+	left:0px;
+}
+.phone-call-float{
+    position:fixed;
+	width:45px;
+	height:45px;
+    line-height:45px;
+	bottom:250px;
+	right:20px;
+	background-color:#ffa600;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+.phone-call-float::before {
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+    background-color: #ffa600;
+	top: -5px;
+	right: 0px;
+	left: -5px;
+	bottom: 0px;
+	animation:phone-call-float 1.2s linear infinite;
+	z-index: -1;
+	width: 55px;
+	height: 55px;
+}
+@keyframes phone-call-float{
+    0%,30%{ 
+        transform: scale(0);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.1);
+        opacity: .7;
+    }
+    80%{
+        transform: scale(1.2);
+        opacity: .2;
+    }
+    100%{
+        transform: scale(1.3);
+        opacity:0 ;
+    }
+}
+.phone-icon{
+    position: absolute;
+    font-size:25px !important;
+    color:#fff;
+    top: 10px;
+	left: 10px;
+}
+.owl-item.active {
+	width: 270px !important;
+    margin-right:10px !important;
+}
+.owl-stage {
+	width:6000px !important;
+}
